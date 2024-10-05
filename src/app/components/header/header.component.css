@@ -1,9 +1,12 @@
 .header {
-  background: url(/assets/fundo-cabecalho.png);
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  background: url(/assets/fundo-cabecalho.png);
+  background-size: cover;
+
+  margin: 0;
 
   .logo {
     width: 46%;

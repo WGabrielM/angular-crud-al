@@ -6,6 +6,7 @@
     </h2>
   </header>
 
+
   <form>
     <label for="thought"> Thought</label>
     <input
@@ -16,8 +17,6 @@
       placeholder="Type a thought"
       [(ngModel)]="thoughts.content"
     />
-  </form>
-  <form>
     <label for="authorship"> Authorship</label>
     <input
       id="authorship"
@@ -104,7 +103,7 @@
 
     <div class="actions">
       <button (click)="createThought()" class="button">Save</button>
-      <button (click)="cancel()" class="button">Cancel</button>
+      <button routerLink="/listThought" (click)="cancel()" class="button">Cancel</button>
     </div>
   </form>
 </section>

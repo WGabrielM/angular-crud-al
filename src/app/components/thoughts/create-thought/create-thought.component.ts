@@ -1,4 +1,3 @@
-import { identifierName } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -26,7 +25,7 @@ export class CreateThoughtComponent implements OnInit {
   }
 
   cancel() {
-    alert("Pensamento cancelado")
+
   }
 
 }
